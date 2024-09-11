@@ -1,4 +1,4 @@
-import { Restaurant } from '@/pages/types';
+import { Restaurant } from '@/types';
 import { Link } from 'react-router-dom';
 import { AspectRatio } from './ui/aspect-ratio';
 import { Banknote, Clock, Dot } from 'lucide-react';

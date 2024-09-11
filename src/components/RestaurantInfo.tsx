@@ -1,4 +1,4 @@
-import { Restaurant } from '@/pages/types';
+import { Restaurant } from '@/types';
 import {
   Card,
   CardContent,
