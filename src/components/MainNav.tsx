@@ -1,7 +1,7 @@
 import { useAuth0 } from '@auth0/auth0-react';
 import { Button } from './ui/button';
-import { UsernameMenu } from '../../src/components/UsernameMenu';
 import { Link } from 'react-router-dom';
+import { UserNameMenu } from '@/components/UsernameMenu';
 
 const MainNav = () => {
   const { loginWithRedirect, isAuthenticated } = useAuth0();
@@ -13,7 +13,7 @@ const MainNav = () => {
           <Link to="/order-status" className="font-bold hover:text-orange-500">
             Order Status
           </Link>
-          <UsernameMenu />
+          <UserNameMenu />
         </>
       ) : (
         <Button
