@@ -9,7 +9,7 @@ import MenuSection from './MenuSection';
 import ImageSection from './ImageSection';
 import LoadingButton from '@/components/LoadingButton';
 import { Button } from '@/components/ui/button';
-import { Restaurant } from '../../pages/types';
+import { Restaurant } from '../../types';
 import { useEffect } from 'react';
 
 const formSchema = z
