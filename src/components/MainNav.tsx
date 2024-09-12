@@ -1,9 +1,9 @@
 import { useAuth0 } from '@auth0/auth0-react';
 import { Button } from './ui/button';
 import { Link } from 'react-router-dom';
-import { UserNameMenu } from '@/components/UsernameMenu';
+import UserNameMenu from './UserNameMenu .tsx';
 
-const MainNav = () => {
+function MainNav() {
   const { loginWithRedirect, isAuthenticated } = useAuth0();
 
   return (
@@ -26,6 +26,6 @@ const MainNav = () => {
       )}
     </span>
   );
-};
+}
 
 export default MainNav;
